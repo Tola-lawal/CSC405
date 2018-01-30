@@ -1,0 +1,123 @@
+.box{
+	position: relative;
+	left: 40px;
+	bottom: -140px;
+	
+}
+label{
+	display:block;
+	padding:20px;
+	position:relative;
+	left:150px;
+	font-size:20px;
+	top:20px;
+	color:black;
+}
+
+textarea{
+	display:block;
+	padding:20px;
+	position:relative;
+	left:450px;
+	top:-45px;
+	border:5px solid black;
+	border-color:black;
+	width:300px;
+}
+button{
+	background-color: red; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /
+    transition-duration: 0.4s;
+    cursor: pointer;
+    left: 450px;
+    top:-40px;
+	position: relative;
+}
+input{
+	display:block;
+	padding:20px;
+	position:relative;
+	left:450px;
+	top:-45px;
+	border:5px solid black;
+	border-color:black;
+	width:300px;
+}
+.email-det i{
+  position: relative;
+  left: 170px;
+  color: black;
+  top: -15px;
+   font-size:28px;
+}
+.Icon-det i{
+  position: relative;
+  left: 750px;
+  color: black;
+  top: -45px;
+   font-size:28px;
+}
+@keyframes JISORO {
+			from {color:#F0F0F0;}
+			to {color: yellow;} 
+		}
+		h1{
+			background-image:url('otiz font.jpg');
+			background-size: contain;
+			width:99.4%;
+			height: 50px;
+			color:#F0F0F0;
+			font-family: freestyle script;
+			font-size: 55px;
+			padding:30px;
+			position:relative;
+			left:-20px;
+			margin:-20px;
+			text-align:center;
+			animation-name: JISORO;
+			animation-duration: 4s;  animation-iteration-count: infinite; animation-direction: alternate;
+		}nav{
+		background: -webkit-linear-gradient(silver	, white);  width:99.2%; height:70px; position:absolute; left:-20px; padding:10px; margin:15px; overflow: hidden;
+		}
+		nav ul {list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				
+				height: 70px;
+		}
+		nav li{float:left;}
+		nav li a{
+			display: inline;
+			color: black;
+			font-size: 30px;
+			text-align: center;
+			padding: 44px 146px;
+			text-decoration: none;
+			top: 30px;
+			
+
+		}
+		nav li a:hover {
+			background-color: silver;
+		}
+		footer{
+				position:fixed;
+				bottom:0; left:0; right:0; 
+				color:white; text-align:center; font-family: 
+				freestyle script; font-size: 20px;
+				background-color:#262626;
+			}
+			body{
+				padding: 0px;
+				margin: 0px;
+				overflow-x: hidden;
+			}

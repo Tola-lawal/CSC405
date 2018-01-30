@@ -1,0 +1,176 @@
+
+	   @keyframes JISORO {
+			from {color:#F0F0F0;}
+			to {color: yellow;} 
+		}
+		h1{
+			background-image:url('otiz font.jpg');
+			background-size: contain;
+			width:99%;
+			height: 50px;
+			color:#F0F0F0;
+			font-family: freestyle script;
+			font-size: 55px;
+			padding:30px;
+			position:relative;
+			left:-20px;
+			margin:-20px;
+			text-align:center;
+			animation-name: JISORO;
+			animation-duration: 4s;  animation-iteration-count: infinite; animation-direction: alternate;
+		}
+		h2{
+			
+			width:99.4%;
+			height: 50px;
+			color:#F0F0F0;
+			font-family: freestyle script;
+			font-size: 32px;
+			padding:30px;
+			position:relative;
+			left:2px;
+			margin:-20px;
+			text-align:center;
+			animation-name: JISORO;
+			animation-duration: 4s;  animation-iteration-count: infinite; animation-direction: alternate;
+			top: 200px;
+		}
+		button{
+				background-color: red; 
+			    border-radius: 10%;
+			    color: white;
+			    padding: 16px 32px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;
+			    margin: 4px 2px;
+			    -webkit-transition-duration: 0.4s; /
+			    transition-duration: 0.4s;
+			    cursor: pointer;
+			    left: 600px;
+			    top:290px;
+				position: relative;
+			}
+		footer{
+				position:fixed;
+				bottom:0; left:0; right:0; 
+				color:white; text-align:center; font-family: 
+				freestyle script; font-size: 20px;
+				background-color:#262626;
+			}
+		nav{ 
+			background: -webkit-linear-gradient silver, white);  width:99.2%; height:70px; position:absolute; left:-20px; padding:10px; margin:15px; overflow: hidden;
+		}
+		nav ul {list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				
+				height: 70px;
+		}
+		nav li{float:left;}
+		nav li a{
+			display: inline;
+			color: black;
+			font-size: 30px;
+			text-align: center;
+			padding: 44px 146px;
+			text-decoration: none;
+			top: 30px;
+			
+
+		}
+		nav li a:hover {
+			background-color: silver;
+		}
+		
+		header{
+			width: 99.4%;
+			height: 99.4%;
+		}
+		body{
+			padding: 0px;
+			margin: 0px;
+			overflow-x: hidden;
+		}
+		
+		
+		
+		
+		#container{
+			width:; 960px;
+			margin: 0px auto;
+		}
+		
+		
+		body{
+			background-image:url("otizdown.jpg") ;
+			background-size: cover;
+			height: 100%;
+			width: 100%;
+ 
+
+		}
+@media screen and (max-width:959px){
+	#container{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+	
+	body{
+		width: 100%;
+	}
+	h1{
+		width: 100%;
+	}
+	h2{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+	}
+	
+}	
+@media screen and (max-width:640px){
+		#container{
+		width: 100%;
+	}
+	
+	button{
+		width: 100%;
+	}
+	
+	h1{
+		width: 100%;
+	}
+	h2{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+	}
+	a{
+		width: 100%;
+	}
+}	
+@media screen and (max-width:320px){
+		#container{
+		width: 320px;
+	}
+	
+	
+	
+	h1{
+		width: 100%;
+	}
+	h2{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+	}
+	
+}	
